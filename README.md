@@ -1,5 +1,5 @@
 # google-homepage
-A website that manipules the google homepage
+A website that mimics the google homepage
 
 Alt-purpose
 ----------
