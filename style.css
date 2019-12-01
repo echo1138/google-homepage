@@ -1,0 +1,24 @@
+#centerimg {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttoncenter{
+    text-align: center;
+}
+.links{
+    text-decoration: none;
+    font-size: 13px;
+    color: #5B595E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonstyle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #E0DBE7;
+    cursor: pointer;
+    padding: 12px;
+    color: #424242;
+    font-size: 15px;
+}

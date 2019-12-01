@@ -3,18 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Google Homepage</title>
-    <meta name="Mock Google Website" content="Roughly 155 characters">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta name="Mock Google Search Website" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
+
+  <!-- nav code -->
+  <body>
+    <a href="#" class="links"> About </a>
+    <a href="#" class="links"> Store </a>
+  </body>
+
   <body>
     <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="display: block; margin-left: auto; margin-right: auto;">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="centerimg">
     </div>
-    <div style="text-align: center;"><input> </input></div>
-    <div style="text-align: center;">
-        <button>Google Search</button> <button> I'm Feeling Lucky </button>
+    <div class="buttoncenter">
+        <input> </input>
+    </div>
+    <div class="buttoncenter" class="buttonstyle">
+        <input type="submit" value="Google Search" class="buttonstyle">
     </div>
   </body>
 </html>
