@@ -2,38 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Google Homepage</title>
+    <title>Google Search</title>
     <meta name="Mock Google Search Website" content="Roughly 155 characters">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/new-google-favicon-512.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
 
-  <!-- nav code -->
   <body>
+      <!-- nav -->
+      <nav>
       <div id="navleft"> 
     <a href="#" class="links"> About </a>
     <a href="#" class="links"> Store </a>
     </div>
-  </body>
-
-  <body>
+    <div id="navright">
+      <a href="#" class="links"> Gmail </a>
+      <a href="#" class="links"> Images </a>
+      <a href="#"> <img src="assets/more.png" id="imgmore"> </a>
+      <a href="#" id="navButton"> Sign In </a>
+    </div> 
+  </nav>
       <!-- image -->
-    <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="center">
-    </div>
+    <div id=center>
+        <img id="imgcenter" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     <!-- searchbar -->
-    <body>
-            <div class="buttoncenter" class="search">
-                    <input>
+    <form>
+            <div>
+                    <input type=text>
                 </div>
-    </body>
     <!-- buttons -->
-    <body>
-    <div id="buttoncenter">
+    <div id="submitcenter">
         <input type="submit" value="Google Search" class="buttonstyle">
         <input type="submit" value="I'm Feeling Lucky" class="buttonstyle">
-    </div>
-    </body>
+      </div>
+  </form>
+  </div>
   </body>
 </html>
