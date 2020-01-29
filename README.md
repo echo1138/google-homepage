@@ -1,5 +1,5 @@
-# google-homepage
-A website that mimics the google homepage
+# Google Homepage
+A website that mimics the Google Homepage.
 
 Purpose
 ----------
